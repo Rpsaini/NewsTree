@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="@drawable/upper_roundcorner_drawable"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+    <fontspackageForTextView.Regular
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/select_font"></fontspackageForTextView.Regular>
+
+
+        <ImageView
+            android:id="@+id/img_cross"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:tint="?attr/colorPrimary"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/cross"
+            ></ImageView>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/rr_select_font_recycler"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <fontspackageForTextView.Regular
+        android:padding="15dp"
+        android:id="@+id/lbl_changefont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_drawable"
+        android:text="@string/change_font"
+        ></fontspackageForTextView.Regular>
+</LinearLayout>

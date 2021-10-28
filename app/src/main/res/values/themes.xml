@@ -1,0 +1,362 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CommonWebView" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/skye_blue</item>
+        <item name="colorPrimaryVariant">@color/sky_blue_700</item>
+        <item name="colorOnPrimary">@color/sky_blue_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sky_blue_700</item>
+        <item name="colorSecondaryVariant">@color/skye_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/skye_blue</item>
+        <item name="black_color_700">@color/black_color_700</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="sky_blue" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/skye_blue</item>
+        <item name="colorPrimaryVariant">@color/sky_blue_700</item>
+        <item name="colorOnPrimary">@color/sky_blue_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sky_blue_700</item>
+        <item name="colorSecondaryVariant">@color/skye_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/skye_blue</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="red_color_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_color</item>
+        <item name="colorPrimaryVariant">@color/red_700</item>
+        <item name="colorOnPrimary">@color/red_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red_color</item>
+        <item name="colorSecondaryVariant">@color/red_700</item>
+        <item name="colorOnSecondary">@color/red_200</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/red_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="green_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_color</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
+        <item name="colorOnPrimary">@color/green_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_color</item>
+        <item name="colorSecondaryVariant">@color/green_700</item>
+        <item name="colorOnSecondary">@color/green_200</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/green_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="white_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/white_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+      <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+
+    <style name="brown_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brown_color</item>
+        <item name="colorPrimaryVariant">@color/brown_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brown_color</item>
+        <item name="colorSecondaryVariant">@color/brown_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/brown_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+
+    <style name="purple_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_color</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_color</item>
+        <item name="colorSecondaryVariant">@color/purple_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/purple_color</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+
+
+
+    <style name="dark_blue_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_color</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_color</item>
+        <item name="colorSecondaryVariant">@color/blue_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/blue_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+    <style name="grey_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/grey_color</item>
+        <item name="colorPrimaryVariant">@color/grey_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/grey_color</item>
+        <item name="colorSecondaryVariant">@color/grey_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/grey_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+    <style name="yellow_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/yellow_color</item>
+        <item name="colorPrimaryVariant">@color/yellow_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/yellow_color</item>
+        <item name="colorSecondaryVariant">@color/yellow_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/yellow_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="pink_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink_color</item>
+        <item name="colorPrimaryVariant">@color/pink_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_color</item>
+        <item name="colorSecondaryVariant">@color/pink_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/pink_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="maroon_theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/maroon_color</item>
+        <item name="colorPrimaryVariant">@color/maroon_700</item>
+        <item name="colorOnPrimary">@color/white_f</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/maroon_color</item>
+        <item name="colorSecondaryVariant">@color/maroon_700</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/maroon_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="default_style" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/default_app_color</item>
+        <item name="colorPrimaryVariant">@color/default_app_lite</item>
+        <item name="colorOnPrimary">@color/default_app_color</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/default_app_color</item>
+        <item name="colorSecondaryVariant">@color/default_app_lite</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="imagetint">@color/white</item>
+        <item name="colortext">@color/white</item>
+        <item name="custom_color">@color/default_app_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="default_white_style" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/for_white_background_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white_f</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="imagetint">@color/red_color</item>
+        <item name="colortext">@color/black</item>
+        <item name="custom_color">@color/black</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+    <style name="Theme.CommonWebView.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.CommonWebView.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="menuItems" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/black_color_700</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="Theme.CommonWebView.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+</resources>

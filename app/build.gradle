@@ -1,0 +1,74 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.soft.newstree"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 3
+        versionName "1.3"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    //for ad mob
+    implementation 'com.google.android.gms:play-services-ads:19.3.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.github.Rpsaini:DrawableNAnimationNFonts:V1.7'
+
+    //fcm=====>
+    implementation 'com.google.android.gms:play-services-vision:+'
+    implementation platform('com.google.firebase:firebase-bom:26.5.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
+
+
+    //image library
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.github.bumptech.glide:annotations:4.9.0'
+    implementation 'com.github.bumptech.glide:compiler:4.9.0'
+
+    //shimmer Effect
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.github.Rpsaini:PreferencesNStorage:V2.7'
+    implementation 'com.github.Rpsaini:DialogsNPickers:V2.4'
+    implementation 'com.github.Rpsaini:VollyCommunication:V1.4'
+
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+
+    implementation(group: 'com.an.biometric', name: 'biometric-auth', version: '0.1.0', ext: 'aar', classifier: '')
+
+}
+apply plugin: 'com.google.gms.google-services'

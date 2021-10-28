@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/swipe_container"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<RelativeLayout
+    android:id="@+id/main_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/img_check_changes"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/floating_icon"></ImageView>
+
+
+    <include layout="@layout/shimmer_layout"/>
+
+
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="5dp"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id">
+    </com.google.android.gms.ads.AdView>
+
+    <include layout="@layout/layout_add_your_website_url"/>
+
+
+
+
+</RelativeLayout>
+
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

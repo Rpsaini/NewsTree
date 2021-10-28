@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "99558038517",
+    "project_id": "newstree-80e02",
+    "storage_bucket": "newstree-80e02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99558038517:android:36420b0ebd08e060341ebc",
+        "android_client_info": {
+          "package_name": "com.soft.newstree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99558038517-gvekgqsr1bg03gck5oi6k2liiiba72d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soft.newstree",
+            "certificate_hash": "038349bf67aae968bc227570b924b125e4e27abe"
+          }
+        },
+        {
+          "client_id": "99558038517-e62c41lchfgjnp3689ejtabrgrkoe364.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6NlvEG_R53P0_77lBcyib9b1JlwOk24I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99558038517-e62c41lchfgjnp3689ejtabrgrkoe364.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

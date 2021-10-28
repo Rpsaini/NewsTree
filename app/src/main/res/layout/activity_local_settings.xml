@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".settings.LocalSettings">
+
+    <include layout="@layout/cutom_header_layout"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+
+            <fontspackageForTextView.Regular
+                android:padding="10dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="@string/select_theme"></fontspackageForTextView.Regular>
+
+            <GridView
+                android:layout_marginTop="10dp"
+                android:id="@+id/idThemeGrid"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:horizontalSpacing="6dp"
+                android:numColumns="4"
+                android:verticalSpacing="6dp" />
+
+
+
+            <fontspackageForTextView.Regular
+                android:padding="10dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="@string/select_font"></fontspackageForTextView.Regular>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/rr_select_font_recycler"
+                ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+<!--            <fontspackageForTextView.Regular-->
+<!--                android:id="@+id/ll_change_app_theme"-->
+<!--                android:drawablePadding="15dp"-->
+<!--                android:drawableTint="?attr/colorPrimary"-->
+<!--                android:drawableLeft="@drawable/theme_icon"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:text="Change App theme"-->
+<!--                android:gravity="center|left"-->
+<!--                style="@style/menuItems"-->
+<!--                ></fontspackageForTextView.Regular>-->
+
+<!--            <View-->
+<!--                android:id="@+id/view_change_theme"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="@color/white_f"-->
+<!--                ></View>-->
+
+<!--            <fontspackageForTextView.Regular-->
+<!--                android:id="@+id/ll_change_app_font"-->
+<!--                android:drawableTint="?attr/colorPrimary"-->
+<!--                android:drawablePadding="15dp"-->
+<!--                android:drawableLeft="@drawable/change_font"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:text="@string/changeapp_font"-->
+<!--                android:gravity="center|left"-->
+<!--                style="@style/menuItems"-->
+<!--                ></fontspackageForTextView.Regular>-->
+
+<!--            <View-->
+<!--                android:id="@+id/view_change_font"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="@color/white_f"-->
+<!--                ></View>-->
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/ll_enable_biometric"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                >
+
+                <fontspackageForTextView.Regular
+                    style="@style/menuItems"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@drawable/biometric_icon"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="?attr/colorPrimary"
+                    android:gravity="center|left"
+                    android:text="@string/enable_biometric"></fontspackageForTextView.Regular>
+
+                <Switch
+                    android:id="@+id/switch_biomatric"
+                    android:trackTint="?attr/colorPrimary"
+                    android:thumbTint="?attr/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"></Switch>
+            </RelativeLayout>
+            <View
+                android:id="@+id/view_change_enablebiometric"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white_f"
+                ></View>
+
+
+            <fontspackageForTextView.Regular
+                android:id="@+id/ll_share_app"
+                android:drawablePadding="15dp"
+                android:drawableTint="?attr/colorPrimary"
+                android:drawableLeft="@drawable/share_new_icon"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:text="@string/share_app"
+                android:gravity="center|left"
+                style="@style/menuItems"
+                ></fontspackageForTextView.Regular>
+
+            <View
+                android:id="@+id/view_change_share"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white_f"
+                ></View>
+
+
+            <fontspackageForTextView.Regular
+                android:id="@+id/ll_privacy_policy"
+                android:drawablePadding="15dp"
+                android:drawableTint="?attr/colorPrimary"
+                android:drawableLeft="@drawable/privacy_icon"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:text="@string/privacy_policy"
+                android:gravity="center|left"
+                style="@style/menuItems"
+                ></fontspackageForTextView.Regular>
+
+            <View
+                android:id="@+id/view_change_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white_f"
+                ></View>
+
+
+            <fontspackageForTextView.Regular
+                android:id="@+id/ll_terms_conditions"
+                style="@style/menuItems"
+                android:drawablePadding="10dp"
+                android:drawableTint="?attr/colorPrimary"
+                android:drawableLeft="@drawable/terms_conditions_icon"
+                android:layout_height="60dp"
+                android:layout_width="match_parent"
+                android:text="@string/terms_condition"
+                android:gravity="center|left"
+                ></fontspackageForTextView.Regular>
+
+            <View
+                android:id="@+id/view_change_terms"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/white_f"
+                ></View>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

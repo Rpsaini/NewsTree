@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">न्यूज ट्री</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="no_network">Opps!</string>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="enable_biometric">Enable Biometric</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_condition">Terms and Conditions</string>
+    <string name="share_app">Share App</string>
+    <string name="changeapp_font">Change App Font</string>
+    <string name="select_font">Select Font</string>
+    <string name="change_font">Change Font</string>
+    <string name="select_theme">Select Theme Color</string>
+    <string name="no_network_detail">There is no internet connection,Please check your internet connection.</string>
+    <string name="www">www</string>
+    <string name="enter_your_website_url">Enter your website url here</string>
+    <string name="enter_valid_website_url">Enter valid url</string>
+    <string name="subtitle">You can organize just about anything by using WebviewX </string>
+    <string name="exit_confirmation">Are you sure do you want to exit from app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="app_link">App invite link</string>
+    <string name="invalid_shareurl">Invalid Share url</string>
+    <string name="enterAppid">Enter App Id</string>
+    <string name="str_changes">A Dynamic App Id is showing on  url "http://webviewxapi/appsettingsinput.html",just add your AppId in box and Change the properties, all changes you can see here after submit  </string>
+
+    <string name="biometric_error_sdk_not_supported">Sdk version not supported</string>
+    <string name="biometric_error_hardware_not_supported">Device does not support biometric authentication</string>
+    <string name="biometric_error_fingerprint_not_available">Fingerprint is not registered in device</string>
+    <string name="biometric_error_permission_not_granted">Permission is not granted by user</string>
+    <string name="biometric_failure">Login not successful!</string>
+    <string name="biometric_cancelled">Authentication cancelled by user</string>
+    <string name="biometric_success">Authentication Done</string>
+    <string name="biometric_title">Authentication</string>
+    <string name="biometric_subtitle">Authenticate to your WebviewX India account</string>
+    <string name="biometric_description">Place your finger on the device home button to verify your identity</string>
+    <string name="biometric_negative_button_text">CANCEL</string>
+    <string name="fontchanged">You need to start app again to see font family changes.</string>
+    <string name="shareAppContent">To read all Hindi Newspaper,I recommend you to download "NewsTree Hindi" app.</string>
+    <string name="restart_message">To View the changes you need to restart app.</string>
+
+
+
+<!--//testing-->
+<!--        <string name="admob_app_id">ca-app-pub-3940256099942544~6300978111</string>-->
+<!--        <string name="admob_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--        <string name="interstial_ad_id">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+<!--    //real-->
+    <string name="admob_app_id">ca-app-pub-2745037251574118~6500945771</string>
+    <string name="admob_id">ca-app-pub-2745037251574118/1248619097</string>"
+    <string name="interstial_ad_id">ca-app-pub-2745037251574118/8242252911</string>"
+
+
+
+
+
+
+</resources>

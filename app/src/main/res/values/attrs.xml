@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="skye_blue" format="color" />
+    <attr name="sky_blue_lite" format="color" />
+
+    <attr name="red_color" format="color" />
+    <attr name="red_lite" format="color" />
+
+    <attr name="green_color" format="color" />
+    <attr name="green_color_lite" format="color" />
+
+
+    <attr name="yellow_color" format="color" />
+    <attr name="yellow_color_lite" format="color" />
+
+
+
+    <attr name="blue_color" format="color" />
+    <attr name="blue_color_lite" format="color" />
+
+
+
+    <attr name="magenta_color" format="color" />
+    <attr name="magenta_color_lite" format="color" />
+
+
+    <attr name="white_color" format="color" />
+    <attr name="white_color_lite" format="color" />
+
+
+
+    <attr name="black_color" format="color" />
+    <attr name="black_color_lite" format="color" />
+
+    <attr name="textColorHint" format="color" />
+    <attr name="tint" format="color" />
+    <attr name="imagetint" format="color" />
+    <attr name="colortext" format="color" />
+    <attr name="custom_color" format="color" />
+    <attr name="black_color_700" format="color" />
+
+
+</resources>

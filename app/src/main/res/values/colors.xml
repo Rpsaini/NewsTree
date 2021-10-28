@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skye_blue">#1E90FF</color>
+    <color name="sky_blue_700">#1E90FF</color>
+    <color name="sky_blue_200">#00BFFF</color>
+    <color name="for_blue_background_color">#ffffff</color>
+
+
+    <color name="red_color">#DC143C</color>
+    <color name="red_700">#F08080</color>
+    <color name="red_200">#CD5C5C</color>
+    <color name="for_red_background_color">#ffffff</color>
+
+
+    <color name="green_color">#3CB371</color>
+    <color name="green_700">#8FBC8F</color>
+    <color name="green_200">#98FB98</color>
+    <color name="for_green_background_color">#ffffff</color>
+
+
+
+    <color name="white_color">#EEEEEE</color>
+    <color name="white_700">#696969</color>
+    <color name="white_200">#ffffff</color>
+    <color name="for_white_background_color">#f4f4f4</color>
+
+
+
+    <color name="brown_color">#641E16</color>
+    <color name="brown_700">#7B241C</color>
+    <color name="brown_200">#922B21</color>
+    <color name="for_brown_background_color">#f4f4f4</color>
+
+
+
+    <color name="purple_color">#512E5F</color>
+    <color name="purple_700">#633974</color>
+    <color name="purple_200">#76448A</color>
+    <color name="for_purple_background_color">#f4f4f4</color>
+
+
+
+
+    <color name="blue_color">#154360</color>
+    <color name="blue_700">#1A5276</color>
+    <color name="blue_200">#1F618D</color>
+    <color name="for_dblue_background_color">#f4f4f4</color>
+
+
+
+
+    <color name="grey_color">#17202A</color>
+    <color name="grey_700">#1C2833</color>
+    <color name="grey_200">#273746</color>
+    <color name="for_grey_background_color">#f4f4f4</color>
+
+
+
+
+    <color name="yellow_color">#D4AC0D</color>
+    <color name="yellow_700">#D4AC0D</color>
+    <color name="yellow_200">#F4D03F</color>
+    <color name="for_yellow_background_color">#f4f4f4</color>
+
+
+    <color name="pink_color">#FF69B4</color>
+    <color name="pink_700">#FFB6C1</color>
+    <color name="pink_200">#FFC0CB</color>
+    <color name="for_pink_background_color">#f4f4f4</color>
+
+
+    <color name="maroon_color">#800000</color>
+    <color name="maroon_700">#8B0000</color>
+    <color name="maroon_200">#A52A2A</color>
+    <color name="for_maroon_background_color">#f4f4f4</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColorHint">#c1c1c1</color>
+    <color name="white_f">#F4F4F4</color>
+    <color name="shimmer_strip_color">#c4c4c4</color>
+    <color name="black_color_700">#343434</color>
+
+
+    <color name="default_app_color">#A71575</color>
+    <color name="default_app_lite">#F44540</color>
+    <color name="translucent_black">#00ffffff</color>
+
+
+
+
+
+
+
+
+
+
+</resources>
