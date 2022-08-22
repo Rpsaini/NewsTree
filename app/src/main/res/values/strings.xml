@@ -47,15 +47,15 @@
 
 
 <!--//testing-->
-<!--        <string name="admob_app_id">ca-app-pub-3940256099942544~6300978111</string>-->
-<!--        <string name="admob_id">ca-app-pub-3940256099942544/6300978111</string>-->
-<!--        <string name="interstial_ad_id">ca-app-pub-3940256099942544/1033173712</string>-->
+        <string name="admob_app_id">ca-app-pub-3940256099942544~6300978111</string>
+        <string name="admob_id">ca-app-pub-3940256099942544/6300978111</string>
+        <string name="interstial_ad_id">ca-app-pub-3940256099942544/1033173712</string>
 
 
 <!--    //real-->
-    <string name="admob_app_id">ca-app-pub-2745037251574118~6500945771</string>
-    <string name="admob_id">ca-app-pub-2745037251574118/1248619097</string>"
-    <string name="interstial_ad_id">ca-app-pub-2745037251574118/8242252911</string>"
+<!--    <string name="admob_app_id">ca-app-pub-2745037251574118~6500945771</string>-->
+<!--    <string name="admob_id">ca-app-pub-2745037251574118/1248619097</string>"-->
+<!--    <string name="interstial_ad_id">ca-app-pub-2745037251574118/8242252911</string>"-->
 
 
 

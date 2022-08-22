@@ -33,6 +33,7 @@
         android:paddingLeft="5dp"
         ></fontspackageForTextView.Regular>
     </LinearLayout>
+
     <View
         android:background="@color/textColorHint"
         android:layout_height=".5dp"

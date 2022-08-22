@@ -233,149 +233,178 @@ public class AppSettings extends Application {
             else
              {
                MenuBean menu1 = new MenuBean();
-               menu1.setItemName("1.जागरण हिंदी");
+               menu1.setItemName("जागरण हिंदी");
                menu1.setItemLink("https://www.jagran.com/");
                numberOfMenuItems.add(menu1);
 
                  MenuBean menu2 = new MenuBean();
-                 menu2.setItemName("2.भास्कर हिंदी");
+                 menu2.setItemName("भास्कर हिंदी");
                  menu2.setItemLink("https://www.bhaskar.com/");
                  numberOfMenuItems.add(menu2);
 
 
                  MenuBean menu3 = new MenuBean();
-                 menu3.setItemName("3.दैनिक ट्रिब्यून हिंदी");
+                 menu3.setItemName("दैनिक ट्रिब्यून हिंदी");
                  menu3.setItemLink("https://www.dainiktribuneonline.com/");
                  numberOfMenuItems.add(menu3);
 
 
                  MenuBean menu4 = new MenuBean();
-                 menu4.setItemName("4.अमरुजला हिन्दी");
+                 menu4.setItemName("अमरउजाला हिन्दी");
                  menu4.setItemLink("https://www.amarujala.com/");
                  numberOfMenuItems.add(menu4);
 
                  MenuBean menu5 = new MenuBean();
-                 menu5.setItemName("5.हिंदुस्तान टाइम्स हिंदी");
+                 menu5.setItemName("हिंदुस्तान टाइम्स हिंदी");
                  menu5.setItemLink("https://www.livehindustan.com/");
                  numberOfMenuItems.add(menu5);
 
                  MenuBean menu6 = new MenuBean();
-                 menu6.setItemName("6.पंजाब केसरी");
+                 menu6.setItemName("पंजाब केसरी");
                  menu6.setItemLink("https://www.punjabkesari.in/");
                  numberOfMenuItems.add(menu6);
 
                  MenuBean menu7 = new MenuBean();
-                 menu7.setItemName("7.जनसत्ता हिंदी");
+                 menu7.setItemName("जनसत्ता हिंदी");
                  menu7.setItemLink("https://www.jansatta.com/");
                  numberOfMenuItems.add(menu7);
 
 
 
                  MenuBean menu9 = new MenuBean();
-                 menu9.setItemName("8.प्रभातखबर हिंदी");
+                 menu9.setItemName("प्रभातखबर हिंदी");
                  menu9.setItemLink("https://www.prabhatkhabar.com/");
                  numberOfMenuItems.add(menu9);
 
 
-//                 MenuBean menu10 = new MenuBean();
-//                 menu10.setItemName("9हरिभूमि हिंदी");
-//                 menu10.setItemLink("https://www.haribhoomi.com/");
-//                 numberOfMenuItems.add(menu10);
+                 MenuBean menu10 = new MenuBean();
+                 menu10.setItemName("हिंदुस्तान दैनिक ");
+                 menu10.setItemLink("https://www.livehindustan.com/");
+                 numberOfMenuItems.add(menu10);
+
+
+
+                 MenuBean menu27 = new MenuBean();
+                 menu27.setItemName("प्रभात खबर");
+                 menu27.setItemLink("https://www.prabhatkhabar.com/");
+                 numberOfMenuItems.add(menu27);
 
 
                  MenuBean menu11 = new MenuBean();
-                 menu11.setItemName("9.दव्याहिमाचल हिंदी");
+                 menu11.setItemName("दव्याहिमाचल हिंदी");
                  menu11.setItemLink("https://www.divyahimachal.com/");
                  numberOfMenuItems.add(menu11);
 
                  MenuBean menu12 = new MenuBean();
-                 menu12.setItemName("10.दरांची क्सप्रेस हिंदी");
+                 menu12.setItemName("दरांची क्सप्रेस हिंदी");
                  menu12.setItemLink("http://ranchiexpress.com/");
                  numberOfMenuItems.add(menu12);
 
 
 
                  MenuBean menu13 = new MenuBean();
-                 menu13.setItemName("11.The Pioneer");
+                 menu13.setItemName("The Pioneer");
                  menu13.setItemLink("https://www.dailypioneer.com/");
                  numberOfMenuItems.add(menu13);
 
 
                  MenuBean menu14 = new MenuBean();
-                 menu14.setItemName("12.The Indian Express");
+                 menu14.setItemName("The Indian Express");
                  menu14.setItemLink("https://indianexpress.com/");
                  numberOfMenuItems.add(menu14);
 
                  MenuBean menu15 = new MenuBean();
-                 menu15.setItemName("13.The Telegraph (India)");
+                 menu15.setItemName("The Telegraph (India)");
                  menu15.setItemLink("https://www.telegraphindia.com/");
                  numberOfMenuItems.add(menu15);
 
 
                  MenuBean menu16 = new MenuBean();
-                 menu16.setItemName("14.The Hindu");
+                 menu16.setItemName("The Hindu");
                  menu16.setItemLink("https://www.thehindu.com/");
                  numberOfMenuItems.add(menu16);
 
 
                  MenuBean menu17 = new MenuBean();
-                 menu17.setItemName("15.Hindustan Times");
+                 menu17.setItemName("Hindustan Times");
                  menu17.setItemLink("https://www.hindustantimes.com/");
                  numberOfMenuItems.add(menu17);
 
 
                  MenuBean menu18 = new MenuBean();
-                 menu18.setItemName("16.TheTribune");
+                 menu18.setItemName("The Tribune");
                  menu18.setItemLink("https://www.tribuneindia.com/");
                  numberOfMenuItems.add(menu18);
 
 
 
+                 MenuBean menu28 = new MenuBean();
+                 menu28.setItemName("The Asianage");
+                 menu28.setItemLink("https://www.asianage.com/");
+                 numberOfMenuItems.add(menu28);
+
+
+
+
+                 MenuBean menu29 = new MenuBean();
+                 menu29.setItemName("People Daily");
+                 menu29.setItemLink("http://en.people.cn/");
+                 numberOfMenuItems.add(menu29);
+
+
+
+                 MenuBean menu30 = new MenuBean();
+                 menu30.setItemName("Times of India");
+                 menu30.setItemLink("https://timesofindia.indiatimes.com/");
+                 numberOfMenuItems.add(menu30);
+
+
+
                  MenuBean menu19 = new MenuBean();
-                 menu19.setItemName("17.BSE India");
+                 menu19.setItemName("BSE India");
                  menu19.setItemLink("https://www.bseindia.com/");
                  numberOfMenuItems.add(menu19);
 
 
                  MenuBean menu20 = new MenuBean();
-                 menu20.setItemName("18.NSE India");
+                 menu20.setItemName("NSE India");
                  menu20.setItemLink("https://www.nseindia.com/");
                  numberOfMenuItems.add(menu20);
 
 
                  MenuBean menu21 = new MenuBean();
-                 menu21.setItemName("19.Moneycontrol");
+                 menu21.setItemName("Moneycontrol");
                  menu21.setItemLink("https://www.moneycontrol.com/");
                  numberOfMenuItems.add(menu21);
 
 
                  MenuBean menu22 = new MenuBean();
-                 menu22.setItemName("20.Screener");
+                 menu22.setItemName("Screener");
                  menu22.setItemLink("https://www.screener.in/");
                  numberOfMenuItems.add(menu22);
 
 
 
                  MenuBean menu23 = new MenuBean();
-                 menu23.setItemName("21.Business Standard");
+                 menu23.setItemName("Business Standard");
                  menu23.setItemLink("https://www.business-standard.com/");
                  numberOfMenuItems.add(menu23);
 
 
                  MenuBean menu24 = new MenuBean();
-                 menu24.setItemName("22.Investing");
+                 menu24.setItemName("Investing");
                  menu24.setItemLink("https://in.investing.com/");
                  numberOfMenuItems.add(menu24);
 
 
                  MenuBean menu25 = new MenuBean();
-                 menu25.setItemName("23.Live Mint");
+                 menu25.setItemName("Live Mint");
                  menu25.setItemLink("https://www.livemint.com/");
                  numberOfMenuItems.add(menu25);
 
 
                  MenuBean menu26 = new MenuBean();
-                 menu26.setItemName("24.Economictimes Live");
+                 menu26.setItemName("Economic times Live");
                  menu26.setItemLink("https://economictimes.indiatimes.com/markets");
                  numberOfMenuItems.add(menu26);
 
@@ -394,11 +423,16 @@ public class AppSettings extends Application {
 
     public static ArrayList<FontBean> setFonts(String fontType, Context context) {
         //check font is already set or not
+
+
         SavePreferences savePreferences = new SavePreferences();
         String savedFont = savePreferences.reterivePreference(context, AppSettings.fontName).toString();
-        if (savedFont.length() >= 2) {
+        if (savedFont.length() >= 2)
+        {
             fontType = savedFont;
         }
+
+        fontType="monteserrat";
         fontArray = new ArrayList<>();
         FontBean OpenSans = new FontBean();
         OpenSans.setFontName("OpenSans Font");
@@ -458,7 +492,18 @@ public class AppSettings extends Application {
             DefineYourAppFont.fontNameBoldItalic = "fonts/oswald/Oswald-Medium.ttf";
             DefineYourAppFont.fontNameLiteItalic = "fonts/oswald/Oswald-Regular.ttf";
             DefineYourAppFont.fontNameBoldMedium = "fonts/oswald/Oswald-Medium.ttf";
-        } else {
+        }
+        else if (fontType.equalsIgnoreCase("monteserrat")) {
+            DefineYourAppFont.fontNameRegular = "fonts/monteserrat/Montserrat-Regular.ttf";
+            DefineYourAppFont.fontNameBold = "fonts/monteserrat/Montserrat-Bold.ttf";
+            DefineYourAppFont.fontNameBoldExtra = "fonts/monteserrat/Montserrat-Bold.ttf";
+            DefineYourAppFont.fontNameItalic = "fonts/monteserrat/Montserrat-Italic.ttf";
+            DefineYourAppFont.fontNameBoldItalic = "fonts/monteserrat/Montserrat-Italic.ttf";
+            DefineYourAppFont.fontNameLiteItalic = "fonts/monteserrat/Montserrat-Light.ttff";
+            DefineYourAppFont.fontNameBoldMedium = "fonts/monteserrat/Montserrat-Bold.ttf";
+        }
+
+        else {
             DefineYourAppFont.fontNameRegular = "fonts/roboto/Roboto-Regular.ttf";
             DefineYourAppFont.fontNameBold = "fonts/roboto/Roboto-Bold.ttf";
             DefineYourAppFont.fontNameBoldExtra = "fonts/roboto/Roboto-Bold.ttf";

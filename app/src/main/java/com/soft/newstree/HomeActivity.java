@@ -352,6 +352,7 @@ public class HomeActivity extends BaseActivity implements BiometricCallback {
             }
             else
                 {
+                mainDrawer.openDrawer(Gravity.LEFT);
                 Toast.makeText(this, "Tap again to exit from " + getResources().getString(R.string.app_name) + " app", Toast.LENGTH_LONG).show();
                 exitCount++;
                 new Handler().postDelayed(new Runnable() {
@@ -396,6 +397,12 @@ public class HomeActivity extends BaseActivity implements BiometricCallback {
                 progressDialog.show();
 
                 ImageView img_progress_dialog = progressDialog.findViewById(R.id.img_progress_dialog);
+                progressDialog.findViewById(R.id.rr_dismiss).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        progressDialog.dismiss();
+                    }
+                });
 
                 Glide.with(HomeActivity.this)
                         .load(setLoaderImage())
@@ -822,7 +829,12 @@ public class HomeActivity extends BaseActivity implements BiometricCallback {
 
     }
 
+
+
 }
+
+
+
 //
 //
 //<!DOCTYPE html>

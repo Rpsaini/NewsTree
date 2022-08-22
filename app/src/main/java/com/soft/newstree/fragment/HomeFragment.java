@@ -32,6 +32,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
+import com.app.preferences.SavePreferences;
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -61,6 +62,7 @@ public class HomeFragment extends Fragment {
     private ShimmerFrameLayout mShimmerViewContainer;
     private ImageView img_back_pages,img_check_changes;
     int pageMinus = 0;
+    private long adsTime;
     private boolean isActive;
 
     public HomeFragment() {
@@ -81,6 +83,8 @@ public class HomeFragment extends Fragment {
         homeActivity = (HomeActivity) getActivity();
         init();
         actions();
+        String adsTimeStr=new SavePreferences().reterivePreference(getActivity(),"adsTime").toString();
+        adsTime=Long.parseLong(adsTimeStr);
 
         callWebView(getArguments().getString(AppSettings.webViewUrl));
         intializeAdSdk();
@@ -181,12 +185,13 @@ public class HomeFragment extends Fragment {
                     }
                 });
                 openFileChooser();
+
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         showInterstialAds();
                     }
-                },30000);
+                },adsTime);
 
               }
         }, 50);
@@ -218,18 +223,11 @@ public class HomeFragment extends Fragment {
         }
 
         @Override
-        public void onPageFinished(WebView view, String url) {
-            new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-                @Override
-                public void run() {
+        public void onPageFinished(WebView view, String url)
+        {
                     swipe_container.setRefreshing(false);
                     homeActivity.dismissProgressDialog(mShimmerViewContainer);
-                }
-            }, 500);
-
-            super.
-
-                    onPageFinished(view, url);
+                    super.onPageFinished(view, url);
         }
 
         @Override
@@ -252,14 +250,17 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    AdView mAdView;
+    AdView mAdView,adViewbottom;
     private void showBannerAds()
     {
         if(AppSettings.isShowBaneerAd.equalsIgnoreCase("true"))
         {
             mAdView = view.findViewById(R.id.adView);
+            adViewbottom = view.findViewById(R.id.adViewbottom);
+
             AdRequest adRequest = new AdRequest.Builder().build();
             mAdView.loadAd(adRequest);
+            adViewbottom.loadAd(adRequest);
 
         }
 

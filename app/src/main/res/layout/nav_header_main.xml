@@ -6,17 +6,19 @@
     android:background="@drawable/side_nav_bar"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <fontspackageForTextView.BoldMedium
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="40dp"
-        android:layout_height="wrap_content"
+    <fontspackageForTextView.Regular
+        android:layout_marginBottom="5dp"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        android:padding="5dp"
         android:text="Best NewsPapers"
         android:textColor="@color/white"
-        android:gravity="left"
-        android:textSize="20dp"
+        android:textSize="18dp"
 
-        ></fontspackageForTextView.BoldMedium>
+        ></fontspackageForTextView.Regular>
 
 
 </RelativeLayout>

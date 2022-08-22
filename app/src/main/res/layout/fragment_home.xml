@@ -14,8 +14,6 @@
     android:background="@color/white">
 
 
-
-
     <WebView
         android:id="@+id/webview"
         android:layout_width="fill_parent"
@@ -34,22 +32,29 @@
     <include layout="@layout/shimmer_layout"/>
 
 
-    <com.google.android.gms.ads.AdView
-        android:layout_marginTop="5dp"
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/admob_id">
-    </com.google.android.gms.ads.AdView>
+        ads:adUnitId="@string/admob_id"></com.google.android.gms.ads.AdView>
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewbottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id"></com.google.android.gms.ads.AdView>
+
+
 
     <include layout="@layout/layout_add_your_website_url"/>
-
-
-
-
 </RelativeLayout>
 
 
